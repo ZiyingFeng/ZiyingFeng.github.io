@@ -30,22 +30,58 @@
 
 
 
-
-
             <div class="row">
                 <div class="col-md-12">
                     <hr>
                 </div>
                 <!-- A navigation menu that selects different views -->
-      <nav style="font-size: 20px" class="nav nav-tabs">
-            <li role=""><a href="#aboutme" id="photo-tab" >About Me</a></li>
-            <li role=""><a href="#slideshow-template" id="slideshow-tab" >Data Analysis and Coding</a></li>
-            <li role=""><a href="#publications" id="album-tab" >Publications</a></li>
-            <li role=""><a href="#resume" id="resume-tab" >Rusume</a></li>
-          </nav>
-      <br/><br/>
 
+
+    <nav class="navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a style="font-size: 20px; font-weight: bold" class="navbar-brand" href="#aboutme">Ziying Feng</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse nav-tabs">
+            <ul class="nav navbar-nav">
+
+                    <li style="font-size: 20px; font-weight: bold" role=""><a href="#slideshow-template" id="slideshow-tab" >Data Analysis and Coding</a></li>
+                    <li style="font-size: 20px; font-weight: bold" role=""><a href="#publications" id="album-tab" >Publications</a></li>
+                    <li style="font-size: 20px; font-weight: bold" role=""><a href="#resume" id="resume-tab" >Rusume</a></li>
+
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+
+
+
+
+
+<!--
+
+                <nav style="font-size: 20px" class="nav nav-tabs">
+                    <li role=""><a href="#aboutme" id="photo-tab" >About Me</a></li>
+                    <li role=""><a href="#slideshow-template" id="slideshow-tab" >Data Analysis and Coding</a></li>
+                    <li role=""><a href="#publications" id="album-tab" >Publications</a></li>
+                    <li role=""><a href="#resume" id="resume-tab" >Rusume</a></li>
+                </nav>
+
+-->
+
+                <br/><br/>
             </div>
+
+
+
+
 
             <article>
                 <section id="aboutme">
@@ -171,6 +207,9 @@
                 </section>
 
 
+
+
+
                 <section id="resume">
                     <div class="row">
                         <div class="col-md-12 text-feature">
@@ -187,6 +226,22 @@
 
 
             </article>
+
+
+
+
+
+            <div class="col-md-12">
+                <hr>
+            </div class="col-md-12" style="margin-bottom: 20px">
+                <p style="font-size: 20px; text-align: center; line-height: 160%">Copyright &copy; Ziying Feng 2017</p>
+            <div>
+
+            </div>
+
+
+
+
 
             <script src="js/jquery-2.1.4.min.js"></script>
             <script src="js/handlebars-v3.0.3.js"></script>
@@ -255,12 +310,6 @@ function showSlides() {
     setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 </script>
-
-
-
-
-
-
 
 
 
